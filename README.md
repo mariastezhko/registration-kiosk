@@ -6,6 +6,11 @@
 
 `Registration Kiosk` is a simple Vue.js application that collects guest information for marketing purposes and sends data to a Request Bin url.
 
+Key features of `Registration Kiosk` include:
+
+- The kiosk attract loop that runs while customers are not using the kiosk
+- Easy way to change Request Bin URL
+
 
 ## Build Setup
 
@@ -22,4 +27,4 @@ npm run start
 
 ### Updating Request Bin URL
 
-Edit configuration file /static/config/url.json
+Change URL in the configuration file /static/config/url.json
