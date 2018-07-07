@@ -20,6 +20,6 @@ npm run start
 
 ## Usage Instructions
 
-# Updating Request Bin URL
+### Updating Request Bin URL
 
 Edit configuration file /static/config/url.json
