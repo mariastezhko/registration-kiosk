@@ -65,13 +65,15 @@ export default {
               }
             });
 
+            this.user.firstname = '';
+            this.user.lastname = '';
+            this.user.email = '';
+
           },
 
           refreshUrl() {
             this.$http.get('/static/config/url.json').then(response => {
-              console.log("data ", response.body.url)
               this.url = response.body.url;
-              console.log("url: ", this.url);
             }, response => {
                 // error callback
             });
