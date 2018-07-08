@@ -27,4 +27,4 @@ npm run start
 
 ### Updating Request Bin URL
 
-Change URL in the configuration file /static/config/url.json, then restart the application.
+Change URL in the configuration file /static/config/url.json, then restart the server.
